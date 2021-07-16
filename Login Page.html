@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project</title>
+    <style>
+      h1{
+        text-align:center;
+        margin-top:150px;
+      }
+      #ID{
+        padding-top:5px;
+      }
+      #ID, #PASSWORD{
+        display:grid;
+        grid-template-columns: 40% 60%;
+        text-align:center;
+        line-height:center;
+      }
+      #PASSWORD{
+        margin-top:10px;
+      }
+      .a{
+        border:5px solid pink;
+      }
+      #a{
+        border:5px solid gray;
+        margin-left:100px;
+        margin-right:100px
+      }
+      #login{
+        text-align:center;
+        border:5px solid lightskyblue;
+        margin-left:100px;
+        margin-right:100px
+      }
+      #find{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        margin-left:300px;
+        margin-right:100px
+
+      }
+      </style>
+  </head>
+  <body>
+    <h1>상권활성화 프로젝트</h1>
+        <div id="a">
+            <div id="ID">
+                <div>ID</div>
+                <div class="a">아이디를 입력하세요</div>
+            </div>
+            <div id="PASSWORD">
+                <div>PASSWORD</div>
+                <div class="a">비밀번호를 입력하세요</div>
+            </div>
+        </div>
+        <div id="login">LOGIN</div>
+        <div style="text-align:center">아이디 혹은 비밀번호를 잃어버리셨나요?</div>
+        <div id="find">
+            <div>아이디 찾기</div>
+            <div>비밀번호 찾기</div>
+        </div>
+  </body>
+</html>
